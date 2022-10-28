@@ -46,9 +46,7 @@
 		3E4FDAE1290C1855003211C2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				58C4967E27DD097A00DCA879 /* BackgroundColor.swift */,
 				3E14AECB290C35D600B6FCFD /* DrinkGame.swift */,
-				3E14AECD290C37E000B6FCFD /* Emoji.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -57,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				58C4967027DD070300DCA879 /* Main.storyboard */,
+				3E14AECD290C37E000B6FCFD /* Emoji.swift */,
+				58C4967E27DD097A00DCA879 /* BackgroundColor.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
