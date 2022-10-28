@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E14AECC290C35D600B6FCFD /* DrinkGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14AECB290C35D600B6FCFD /* DrinkGame.swift */; };
+		3E14AECE290C37E000B6FCFD /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14AECD290C37E000B6FCFD /* Emoji.swift */; };
 		58C4966B27DD070300DCA879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966A27DD070300DCA879 /* AppDelegate.swift */; };
 		58C4966D27DD070300DCA879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966C27DD070300DCA879 /* SceneDelegate.swift */; };
-		58C4966F27DD070300DCA879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966E27DD070300DCA879 /* ViewController.swift */; };
+		58C4966F27DD070300DCA879 /* DrinkGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966E27DD070300DCA879 /* DrinkGameViewController.swift */; };
 		58C4967227DD070300DCA879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967027DD070300DCA879 /* Main.storyboard */; };
 		58C4967427DD070500DCA879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967327DD070500DCA879 /* Assets.xcassets */; };
 		58C4967727DD070500DCA879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967527DD070500DCA879 /* LaunchScreen.storyboard */; };
@@ -17,10 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E14AECB290C35D600B6FCFD /* DrinkGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkGame.swift; sourceTree = "<group>"; };
+		3E14AECD290C37E000B6FCFD /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		58C4966727DD070300DCA879 /* LearningTask-5.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-5.5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C4966A27DD070300DCA879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58C4966C27DD070300DCA879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58C4966E27DD070300DCA879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58C4966E27DD070300DCA879 /* DrinkGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkGameViewController.swift; sourceTree = "<group>"; };
 		58C4967127DD070300DCA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C4967327DD070500DCA879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C4967627DD070500DCA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +43,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E4FDAE1290C1855003211C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58C4967E27DD097A00DCA879 /* BackgroundColor.swift */,
+				3E14AECB290C35D600B6FCFD /* DrinkGame.swift */,
+				3E14AECD290C37E000B6FCFD /* Emoji.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E4FDAE2290C1859003211C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58C4967027DD070300DCA879 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E4FDAE3290C185D003211C2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				58C4966E27DD070300DCA879 /* DrinkGameViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3E4FDAE4290C1886003211C2 /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
+				58C4966A27DD070300DCA879 /* AppDelegate.swift */,
+				58C4966C27DD070300DCA879 /* SceneDelegate.swift */,
+				58C4967527DD070500DCA879 /* LaunchScreen.storyboard */,
+				58C4967827DD070500DCA879 /* Info.plist */,
+			);
+			name = "Supportive Files";
+			sourceTree = "<group>";
+		};
 		58C4965E27DD070300DCA879 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +99,11 @@
 		58C4966927DD070300DCA879 /* LearningTask-5.5 */ = {
 			isa = PBXGroup;
 			children = (
-				58C4966A27DD070300DCA879 /* AppDelegate.swift */,
-				58C4966C27DD070300DCA879 /* SceneDelegate.swift */,
-				58C4966E27DD070300DCA879 /* ViewController.swift */,
-				58C4967027DD070300DCA879 /* Main.storyboard */,
+				3E4FDAE4290C1886003211C2 /* Supportive Files */,
 				58C4967327DD070500DCA879 /* Assets.xcassets */,
-				58C4967527DD070500DCA879 /* LaunchScreen.storyboard */,
-				58C4967827DD070500DCA879 /* Info.plist */,
-				58C4967E27DD097A00DCA879 /* BackgroundColor.swift */,
+				3E4FDAE1290C1855003211C2 /* Models */,
+				3E4FDAE2290C1859003211C2 /* Views */,
+				3E4FDAE3290C185D003211C2 /* Scenes */,
 			);
 			path = "LearningTask-5.5";
 			sourceTree = "<group>";
@@ -141,9 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C4966F27DD070300DCA879 /* ViewController.swift in Sources */,
+				3E14AECE290C37E000B6FCFD /* Emoji.swift in Sources */,
+				58C4966F27DD070300DCA879 /* DrinkGameViewController.swift in Sources */,
 				58C4966B27DD070300DCA879 /* AppDelegate.swift in Sources */,
 				58C4966D27DD070300DCA879 /* SceneDelegate.swift in Sources */,
+				3E14AECC290C35D600B6FCFD /* DrinkGame.swift in Sources */,
 				58C4967F27DD097A00DCA879 /* BackgroundColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
