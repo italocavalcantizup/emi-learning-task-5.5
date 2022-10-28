@@ -27,20 +27,20 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6FI-cE-LpI" userLabel="Container Bebidas Stack View">
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6FI-cE-LpI" userLabel="Container Bebidas Stack View">
                                         <rect key="frame" x="32" y="70.333333333333314" width="326" height="596.66666666666674"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="lastBaseline" spacing="56" translatesAutoresizingMaskIntoConstraints="NO" id="9vp-nD-irv" userLabel="Bebidas Stack View">
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="lastBaseline" translatesAutoresizingMaskIntoConstraints="NO" id="9vp-nD-irv" userLabel="Bebidas Stack View">
                                                 <rect key="frame" x="0.0" y="197.33333333333337" width="326" height="202"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🙋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7p-ct-C4r" userLabel="Bebida Anterior Label">
-                                                        <rect key="frame" x="0.0" y="144.66666666666663" width="52" height="57.333333333333343"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="🙋" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7p-ct-C4r" userLabel="Bebida Anterior Label">
+                                                        <rect key="frame" x="0.0" y="144.66666666666663" width="62.666666666666664" height="57.333333333333343"/>
                                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="48"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🥛" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Imx-2m-7l5" userLabel="Bebida Sorteada Label">
-                                                        <rect key="frame" x="108" y="0.0" width="218" height="239"/>
+                                                        <rect key="frame" x="62.666666666666657" y="0.0" width="263.33333333333337" height="239"/>
                                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="200"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
